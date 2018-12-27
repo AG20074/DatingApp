@@ -29,7 +29,7 @@ constructor(private http: HttpClient) { }
     return this.http.post(this.baseUrl + 'users/' + userId + '/photos/' + id + '/setMain', {});
   }
 
-  deltePhoto(userId: number, id: number){
+  deltePhoto(userId: number, id: number) {
     return this.http.delete(this.baseUrl + 'users/' + userId + '/photos/' + id);
   }
 
