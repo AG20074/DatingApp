@@ -6,14 +6,14 @@ namespace DatingApp.API.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "MI",
-                table: "Users");
+            // migrationBuilder.DropColumn(
+            //     name: "MI",
+            //     table: "Users");
 
-            migrationBuilder.AddColumn<string>(
-                name: "PublicId",
-                table: "Photos",
-                nullable: true);
+            // migrationBuilder.AddColumn<string>(
+            //     name: "PublicId",
+            //     table: "Photos",
+            //     nullable: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

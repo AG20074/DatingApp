@@ -10,13 +10,14 @@ namespace DatingApp.API.Migrations
                 name: "MI",
                 table: "Users",
                 nullable: true);
+
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "MI",
-                table: "Users");
+             migrationBuilder.DropColumn(
+             name: "MI",
+            table: "Users");
         }
     }
 }
